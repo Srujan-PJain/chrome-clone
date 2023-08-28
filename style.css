@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+body {
+  height: 100%;
+}
+#nav {
+  padding: 22px 20px;
+  width: 100%;
+  height: 10vh;
+}
+nav,
+nav > ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.807);
+}
+.first-ul {
+  margin-left: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.second-ul {
+  position: relative;
+  justify-content: flex-end;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+a:hover {
+  text-decoration: underline;
+}
+li {
+  padding-right: 18px;
+}
+
+#logo1:hover {
+  border-radius: 30%;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.201);
+}
+#logo2 {
+  position: relative;
+  top: -8px;
+  border-radius: 50%;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  height: 76vh;
+  padding: 10vh 0;
+}
+.google {
+  display: flex;
+  justify-content: center;
+}
+#searchdiv {
+  margin: 20px 0;
+  border: 1px solid rgba(144, 131, 131, 0.312);
+  position: relative;
+  height: 45px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+#searchbar {
+  position: relative;
+  bottom: 5px;
+  width: 70vh;
+  border: none;
+}
+
+#searchbar:hover {
+  border: none;
+}
+
+.btn {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btns {
+  margin-left: 10px;
+  border-radius: 8px;
+  padding: 8px;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btns:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px 5px rgba(54, 52, 52, 0.063);
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.row1 {
+  background-color: rgba(197, 194, 189, 0.311);
+  height: 7vh;
+  padding: 10px 10px;
+  border-bottom: 2px solid rgba(118, 111, 111, 0.214);
+}
+.row2 {
+  position: relative;
+  background-color: rgba(197, 194, 189, 0.311);
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.third-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.logo4 {
+  position: relative;
+  right: 54px;
+}
+.fourth-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.third-ul > li:hover,
+.fourth-ul > li:hover {
+  text-decoration: underline;
+}
